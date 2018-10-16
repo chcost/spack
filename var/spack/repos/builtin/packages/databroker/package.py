@@ -45,7 +45,7 @@ class Databroker(CMakePackage):
 
     # FIXME: Add a proper url for your package's homepage here.
     homepage = "https://github.com/IBM/data-broker"
-    git      = "git@github.com:IBM/data-broker.git"
+    git      = "https://github.com/IBM/data-broker.git"
 
     version('master', branch='master')
     variant('python', default=False, description='Build Python bindings')
